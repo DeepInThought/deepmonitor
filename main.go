@@ -9,5 +9,6 @@ import (
 
 func init() {
 	runtime.LockOSThread()
-	
+	currentTime := time.Now()
+	fmt.Printf("%+v\n", currentTime)
 }
