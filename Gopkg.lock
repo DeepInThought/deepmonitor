@@ -3,13 +3,15 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:c26c380f39d2df6690c3305465b25fb7ee6227c7267605139ec04f5a3ec58f31"
   name = "golang.org/x/sys"
   packages = ["windows"]
-  revision = "4497e2df6f9e69048a54498c7affbbec3294ad47"
+  pruneopts = ""
+  revision = "04cbcbbfeed8aa0b2b010b2ddab558e9f717fd3e"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "e8a2bdb21752c6c711a52d662ad215c85e1ab5ae8e4e33c25622c9ccda949d54"
+  input-imports = ["golang.org/x/sys/windows"]
   solver-name = "gps-cdcl"
   solver-version = 1
