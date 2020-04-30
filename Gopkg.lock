@@ -3,11 +3,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f3379d6e618c0e7d0a0a260034f43b97fb02e8980f13288a9fb183397d2de171"
+  digest = "1:cf314bc497889ebeabf2b237ab5cca77f20c11f92f93018f148f43bd0aaf4f7d"
   name = "golang.org/x/sys"
   packages = ["windows"]
   pruneopts = ""
-  revision = "34d275377bf96a094e8d5b0c61750ddd54cd6b36"
+  revision = "1f5687305801d4db70d30c51ccc82bf644f9e4d6"
 
 [solve-meta]
   analyzer-name = "dep"
