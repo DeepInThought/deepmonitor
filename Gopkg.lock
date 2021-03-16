@@ -3,11 +3,14 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:f3379d6e618c0e7d0a0a260034f43b97fb02e8980f13288a9fb183397d2de171"
+  digest = "1:921894bd4bf6fba3f6850c3ed697846b66aff2c9c8a162df6036c80476004ba6"
   name = "golang.org/x/sys"
-  packages = ["windows"]
+  packages = [
+    "internal/unsafeheader",
+    "windows",
+  ]
   pruneopts = ""
-  revision = "34d275377bf96a094e8d5b0c61750ddd54cd6b36"
+  revision = "0b90fd5c4c48ef7ae7ef6c393cb118d2e7969999"
 
 [solve-meta]
   analyzer-name = "dep"
